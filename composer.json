@@ -1,0 +1,27 @@
+{
+  "name": "tobymaxham/coaster",
+  "description": "A helper package for CoasterCMS.",
+  "keywords": ["tobymaxham", "coastercms", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TobyMaxham",
+      "email": "git2017@maxham.de",
+      "homepage": "https://maxham.de",
+      "role": "Development"
+    }
+  ],
+  "homepage": "https://maxham.de",
+  "support": {
+    "issues": "https://github.com/TobyMaxham/coaster/issues",
+    "source": "https://github.com/TobyMaxham/coaster"
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TobyMaxham\\Coaster\\": "src"
+    }
+  }
+}
