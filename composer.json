@@ -2,7 +2,7 @@
   "name": "tobymaxham/coaster",
   "description": "A helper package for CoasterCMS.",
   "keywords": ["tobymaxham", "coastercms", "laravel"],
-  "license": "MIT",
+  "license": "GNU GPL v3",
   "authors": [
     {
       "name": "TobyMaxham",
