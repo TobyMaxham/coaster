@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tmaxham
- * Date: 24.08.17
- * Time: 23:39
- */
 
 namespace TobyMaxham\Coaster;
 

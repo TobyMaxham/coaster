@@ -1,15 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tmaxham
- * Date: 24.08.17
- * Time: 23:32
- */
 
 namespace TobyMaxham\Coaster;
 
-
 use Illuminate\Support\ServiceProvider;
+use TobyMaxham\Coaster\Providers\CoasterRoutesProvider;
 
 /**
  * Class CoasterServiceProvider
@@ -22,10 +16,12 @@ class CoasterServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+
     }
 
     public function register()
     {
+        $this->app->register(CoasterRoutesProvider::class);
         $this->bindClasses();
     }
 
@@ -38,5 +34,6 @@ class CoasterServiceProvider extends ServiceProvider
 
 
     }
+
 
 }

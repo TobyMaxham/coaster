@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tmaxham
- * Date: 24.08.17
- * Time: 23:34
- */
 
 namespace TobyMaxham\Coaster\Facades;
-
 
 use Illuminate\Support\Facades\Facade;
 
