@@ -21,10 +21,10 @@
   },
   "autoload": {
     "psr-4": {
-      "TobyMaxham\\Coaster\\": "src",
-      "files": [
-        "tm/Coaster/helpers/functions.php"
-      ]
-    }
+      "TobyMaxham\\Coaster\\": "src"
+    },
+    "files": [
+      "tm/Coaster/helpers/functions.php"
+    ]
   }
 }
